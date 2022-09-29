@@ -1,0 +1,126 @@
+.button1 {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 120px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 24px;
+  color: #fff;
+  background-color: #1ed760;
+  height: 30px;
+}
+.button1:hover {
+  transform: scale(1.04);
+  background-color: #21e065;
+}
+
+.button2 {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 120px;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 7px 9px;
+  color: #fff;
+  background-color: #15883e;
+  height: 30px;
+}
+.button2:hover{
+  background-color: #1db954;
+}
+
+.button3 {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 120px;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 7px 9px;
+  color: #616467;
+  box-shadow: inset 0 0 0 2px #616467;
+  background-color: transparent;
+  height: 30px;
+}
+.button3:hover{
+  color: #fff;
+  background-color: #616467;
+}
+
+.danger {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 120px;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 24px;
+  color: #fff;
+  background-color: red;
+  height: 30px;
+}
+.danger:hover {
+  transform: scale(1.04);
+  background-color: #a31818;
+}
+
+.icon {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 50%;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  width: 30px;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 7px 9px;
+  color: #616467;
+  box-shadow: inset 0 0 0 2px #616467;
+  background-color: transparent;
+  height: 30px;
+}
+.icon:hover{
+  color: #fff;
+  background-color: #616467;
+}

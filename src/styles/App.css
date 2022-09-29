@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #ebf5ee;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+.Box1 {
+  display: block;
+  width: 80%;
+  min-height: 100px;
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+  animation: fadeIn 2s;
+}
+.account {
+  background-color: rgb(237, 239, 238);
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  animation: fadeIn 1s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Outer-box2 {
+  animation: fadeIn 2s;
+}
+
+.Box2 {
+  background-color: #f3f3f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px
+}
+
+.Box2 input {
+  display: block;
+  margin: 10px;
+  height: 30px;
+  width: 800px;
+  border-radius: 10px;
+  border-color: #f3f3f0;
+  box-shadow: none;
+}
+
+.hidden {
+  display: 'none'
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
